@@ -1,3 +1,4 @@
+![Logo "All on board"](https://user-images.githubusercontent.com/100228799/169853514-00199a13-cf10-448e-a160-33cefa7e69c8.jpg)
 
 
 
@@ -165,21 +166,21 @@ LISTA DE COMPONENTES
 PAGES
   └── HomePage
 
-  └── GamesPage  - HUGO
-  └── GameDetailsPage - HUGO
+  └── GamesPage
+  └── GameDetailsPage
   └── EditGamePage
   └── CreateGamesPage
   └── RentGamesDetailsPage 
   └── EditRentGamesPage
 
-  └── MatchesPage - ALVARO
-  └── MatchesDetailsPage - ALVARO
+  └── MatchesPage
+  └── MatchesDetailsPage
   └── EditMatchesPage
 
-  └── UserProfilePage - MARIA
+  └── UserProfilePage
   └── EditUserProfilePage
   └── UserProfileBookingsPage
 
-  └── SignUpPage - MARIA
-  └── LoginPage - MARIA
+  └── SignUpPage
+  └── LoginPage
 ```
