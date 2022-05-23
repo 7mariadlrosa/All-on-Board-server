@@ -1,5 +1,4 @@
-![Logo "All on board"](https://user-images.githubusercontent.com/100228799/169853514-00199a13-cf10-448e-a160-33cefa7e69c8.jpg)
-
+![Mesa de trabajo 2](https://user-images.githubusercontent.com/100228799/169854398-4fc5a63c-819a-4002-b599-c2d974fb3e53.png)
 
 
 AUTH /api/auth/
