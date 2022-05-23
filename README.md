@@ -1,7 +1,10 @@
+
+
+
 AUTH /api/auth/
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | POST  | /signup  | Signup |    |  |
 | POST  | /login  | Login | Yes  | All |
 | POST  | /logout | Logout  | Yes  | All |
@@ -9,7 +12,7 @@ AUTH /api/auth/
 USERS /api/users
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | GET  | /  | Users  | Yes  | Admin |
 | GET  | /id  | User profile  | Yes  | User |
 | PUT  | /:id/edit  | Edit user profile | Yes  | User |
@@ -18,7 +21,7 @@ USERS /api/users
 BOARDGAMES /api/boardgames
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | GET  | /  | Games   |   |  |
 | POST  | /create  | Create boardgames   | Yes  | All |
 | PUT | /:id/edit  | Edit boardgames  | Yes  | All |
@@ -29,7 +32,7 @@ BOARDGAMES /api/boardgames
 MATCH /api/match
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | GET  | /  | Matches list   |   |  |
 | POST  | /create  | Create matches   | Yes  | All |
 | PUT | /:id/edit  | Edit matches  | Yes  | All |
@@ -40,7 +43,7 @@ MATCH /api/match
 EVENT /api/event
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | GET  | /  | Events   |   |  |
 | POST  | /create  | Create event   | Yes  | Admin |
 | PUT | /:id/edit  | Edit event  | Yes  | Admin |
@@ -52,7 +55,7 @@ EVENT /api/event
 GAME BOOKING /api/bookings
 
 |  Method  | URL | Description | Protected | Roles |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | GET  | /  | Boardgames to rent list   |   |  |
 | POST  | /create  | Create booking   | Yes  | User |
 | PUT | /:id/edit  | Edit booking  | Yes  | User |
